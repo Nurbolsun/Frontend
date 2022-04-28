@@ -1,0 +1,99 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        <title>Урок номер 5</title>
+    </head>
+
+    <body>
+        <!-- Lesson 3 -->
+
+        <h1>Заголовок 1</h1>
+        <h2>Заголовок 2</h2>
+        <h3>Заголовок 3</h3>
+        <h4>Заголовок 4</h4>
+        <h5>Заголовок 5</h5>
+        <h6>Заголовок 6</h6>
+        <p><b>Параграф</b> <i>текст</i></p>
+
+        <!-- Lesson 4 -->
+
+        <ol>
+            <li>Продукты</li>
+                <ul>
+                    <li>Сахар</li>
+                    <li>Макароны</li>
+                </ul>
+             <li>Овощи</li>
+                <ul>
+                    <li>Лук</li>
+                        <ul type="square" >
+                            <li>Перец</li>
+                            <li>Помидор</li>
+                        </ul>
+                    <li>Капуста</li>
+                </ul>
+            <li>Фрукты</li>
+        </ol>
+
+        <!-- Таблица -->
+
+        <h4>Добыча драгоценных камней</h4>
+        <table border="1px" width="50%" cellspacing="0" cellpadding="15">
+            <tr>
+                <th> </th>
+                <th>2010</th>
+                <th>2012</th>
+                <th>2014</th>
+            </tr>
+            <tr align=left>
+                <td>Сапфиры</td>
+                <td rowspan="2">1483</td>
+                <td>4532</td>
+                <td>6743</td>
+            </tr>
+            <tr>
+                <td style="text-align:left;">Рубины</td>
+                <td>3835</td>
+                <td>7482</td>
+            </tr>
+            <tr>
+                <td>Алмазы</td>
+                <td>683</td>
+                <td colspan="2" align=center>238</td>              
+            </tr>
+        </table>
+
+        <!-- Lesson 5 -->
+        
+        <form action="">
+            <p>
+                <label for="name"><b>Имя:</b></label>
+                <input type="text" placeholder="Введите имя">
+            </p>
+            <p>
+                <label for="name"><b>Фамилия:</b></label>
+                <input type="text" placeholder="Введите фамилию">
+            </p>
+            <input type="radio" name="sex" id="men">
+            <label for="men">Мужчина</label>
+            <input type="radio" name="sex" id="women">
+            <label for="women">Женщина</label>
+            
+            <p>О себе:</p>
+            <p><input type="checkbox" name="choose" id="18">
+            <label for="18">Меньше 18</label> </p>
+            <p><input type="checkbox" name="choose" id="18+">
+            <label for="18+">От 18 до 35</label></p>
+            <p><input type="checkbox" name="choose" id="35">
+            <label for="35">Больше 35</label></p>
+            <p><input type="checkbox" name="choose" id="merried">
+            <label for="merried">Женат /-а</label></p>
+            <p><input type="checkbox" name="choose" id="cat">
+            <label for="cat">Есть кошка</label></p>
+            <input type="submit" value="Отправить">
+          
+        </form>
+
+ 
+    </body>
+</html>
