@@ -1,0 +1,26 @@
+.menu {
+    background: blue;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+}
+.links {
+    background: pink;
+}
+.tegs {
+    background: aqua;
+    color: red;
+    font-size: 25px;
+    font-family: Franklin Gothic ;
+}
+.text {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    color: brown;
+}
+footer {
+    background-color: black;
+    color: white;
+}
