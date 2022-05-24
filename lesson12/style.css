@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.menu {
+    margin: 48px 253px 0 253px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #828282;
+}
+.menu li {
+    display: inline-block;
+}
+.menu ul {
+    padding: 0;
+}
+.menu li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 0;
+    padding-right: 200px;
+}
+.theme {
+    margin: 48px 253px 0 253px;
+    color: #070707;
+}
+.left {
+    font-size: 47.3392px;
+}
+.center {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-top: -139px;
+}
+.ruen {
+    transform: rotate(-90deg);
+    float: right ;
+    margin-top: -80px;
+    font-size: 18px;
+}
+.slide {
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.about {
+    text-align: center;
+    background: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.about p:nth-child(1) {
+    font-size: 34px;
+    font-weight: bold;
+    color: #070707;
+}
+.skills {
+    padding-bottom: 90px;
+    text-align: center;
+}
+.skills p:nth-child(1) {
+    padding-top: 90px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+}
+.skills p:nth-child(2) {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.skills img {
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.skill_t li {
+    color: #828282;
+    display: inline-block;
+    padding-right: 115px;
+}
+.skill_t ul {
+    padding-left: 0;
+}
+.ps {
+    margin-left: -680px;
+}
+.ps img {
+    padding: 0;
+}
+.ai {
+    margin-top: -25px;
+    margin-left: -300px;
+}
+.ai img {
+    padding: 0;
+}
+.ae {
+    margin-top: -25px;
+    margin-left: 100px;
+}
+.ae img {
+    padding: 0;
+}
+.fi {
+    margin-top: -25px;
+    margin-left: 480px;
+}
+.fi img {
+    padding: 0;
+}
+.portfolio {
+    text-align: center;
+    background: #F6F6F6; 
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+a {
+    font-size: 18px;
+    color: #070707;
+}
+footer {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 14px;
+    color: #828282;
+}
+footer p:nth-child(1) {
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+}
+button {
+    font-size: 20px;
+    border-radius: 20px;
+    color: #F6F6F6;
+    background: #070707;
+}
+.ft_img {
+    margin-left: -55px;
+
+}
+.ft_img img {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
