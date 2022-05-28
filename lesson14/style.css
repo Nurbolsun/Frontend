@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-menu {
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.ul_li li {
+    float: left;
+    padding: 10px 15px;
+}
+.left-menu {
+    float: left;
+}
+.right-menu {
+    float: right;
+}
+.bottom-left img {
+    float: left;
+    width: 15%;
+}
+.bottom-right {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.calendar {
+    display: inline-block;
+}
+.calendar ul {
+    list-style: none;
+    display: inline-block;
+    padding-right: 60px;
+    margin: 0;
+}
