@@ -1,0 +1,289 @@
+ 
+ /* Универсал */
+* {
+    box-sizing: border-box;
+}
+body, p {
+    margin: 0;
+    font-family: roboto;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.ul_li i {
+    margin-right: 15px;
+}
+.border-l li {
+    border-right: 1px solid #dcdcdc;
+}
+
+.hover_menu li:hover .dropdown_menu {
+    display: block;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    top: 56px;
+    padding-top: 30px;
+}
+.dropdown_menu li {
+    list-style: none;
+    padding-top: 10px;
+}
+.style1 {
+    width: 250px;
+    height: 190px;
+    padding-left: 30px;
+     
+}
+.style2 {
+    width: 930px;
+    height: 330px;
+}
+.mb-10 {
+    margin-bottom: 15px;
+}
+.main_bottom {
+    padding: 8px 20px;
+}
+.main_bottom:hover {
+    background: #7cd0f5;
+    color: #fff;
+    border-radius: 40px;
+}
+.border:after {
+    content: '';
+    width: 1px;
+    background: #f4f4f4;
+    position: relative;
+    top: 0;
+    right: -46px;
+}
+
+
+ /* Общий */
+
+.top-menu {
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+} 
+.ul_li > li {
+    float: left;
+    padding: 10px 15px;
+    display: flex;
+}
+.left-menu {
+    float: left;
+    position: relative;
+}
+.right-menu {
+    float: right;
+}
+
+.border-l li:last-child {
+    border-right: 0;
+}
+.msg {
+    position: absolute;
+    top: 5px;
+    left: 245px;
+    background: #dd3657;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    line-height: 1.3;
+    border-radius: 15px;
+}
+.icon_msg {
+    position: relative;
+}
+.bottom-menu {
+    margin: 30px 0;
+    position: relative;
+}
+.bottom-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle i {
+    background: #f4f4f4;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 50%;
+    color: #323464;
+}
+.b_right {
+    float: right;
+}
+.bottom-menu .border-l li:first-child {
+    border: 0;
+}
+.main-menu {
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.main_left {
+    color: #4a4a68;
+    font-weight: bold;
+}
+.main_bg {
+    background-image: url(../img/main_bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pr_left {
+    float: left;
+    position: absolute;
+}
+.pr_center {
+    position: absolute;
+    left: 225px;
+}
+.pr_right {
+    left: 450px;
+    position: absolute;
+}
+.main_right {
+    position: relative;
+}
+.search_css {
+    position: relative;
+    background: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    outline: none;
+}
+.search {
+    position: absolute;
+    right: 160px;
+    top: -50px;
+}
+.search-button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.basket {
+    right: 0;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+}
+.basket span > i {
+    background: #ffcc33;
+    color: #fffaff;
+}
+.basket > .b_left {
+    padding-right: 10px;
+}
+
+ /* Lesson 17 */
+
+ .block_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+#product {
+    margin: 0 15px;
+}
+.block_body {
+    display: inline-block;
+    margin-top: 20px;
+}
+.list_product > .product {
+    float: left;
+}
+.block_stars > div {
+    float: left;
+}
+.product {
+    display: inline-block;
+    min-height: 323px;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.stars > i {
+    font-size: 10px;
+    color: #ffcc33;
+    margin-left: -4px;
+}
+
+.stars > i:first-child {
+    margin-left: 0px;
+}
+.stars {
+    margin-right: 10px;
+}
+.review {
+    font-size: 13px;
+    line-height: 1.7;
+}
+.price {
+    display: inline-block;
+}
+.price span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4c4b6c;
+}
+.price del {
+    color: #909090;
+    margin-left: 20px;
+}
+.btns .ul_li {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns i {
+    margin: 0px;
+}
+.btns li {
+    padding: 0px;
+}
+.btns .circle i {
+    transition: .5s;
+}
+/* HOVER */
+
+.btns li:hover .circle i {
+    background: #7cd0f5;
+    color: white;
+}
+.dnone {
+    display: none;
+}
+.product:hover .dnone {
+    display: block;
+}
+.product:hover .block_stars {
+    display: none;
+}
