@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 body, p {
-    margin: 0;
+    margin: 0 !important;
     font-family: roboto;
+}
+a {
+    text-decoration: none !important ;
+    color: black;
 }
 .container {
     width: 1200px;
@@ -17,8 +21,12 @@ body, p {
     padding: 0;
     margin: 0;
 }
+.ul_li a {
+    color: #909090;
+}
 .ul_li i {
     margin-right: 15px;
+    line-height: 1.5;
 }
 .border-l li {
     border-right: 1px solid #dcdcdc;
@@ -144,8 +152,8 @@ li.border {
     background-color: #f4f4f4;
     position: relative;
 }
-.main_left {
-    color: #4a4a68;
+.main_left a {
+    color: #4c4b6c;
     font-weight: bold;
 }
 .main_bg {
@@ -182,17 +190,17 @@ li.border {
 .search {
     position: absolute;
     right: 160px;
-    top: -50px;
+    top: -55px;
 }
 .search-button {
     border: none;
     background: none;
     position: absolute;
-    top: 14px;
+    top: 7px;
     right: 10px;
 }
 .basket {
-    right: 0;
+    right: 15px;
     bottom: 10px;
     position: absolute;
     display: flex;
@@ -203,11 +211,12 @@ li.border {
 }
 .basket > .b_left {
     padding-right: 10px;
+    padding-top: 4px;
 }
 
  /* Lesson 17 */
 
-.block_title {
+ .block_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -330,4 +339,108 @@ li.border {
     padding: 5px;
     border-radius: 8px;
     z-index: 1;
+}
+
+/* Lesson 18 Bootstrap */
+section#banner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section#banner img {
+    width: 100%;
+}
+p.btn_ttl {
+    text-align: center;
+    padding: 20px 0;
+}
+.btn_ttl a {
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    background: #7cd0f5;
+    border-radius: 30px;
+    transition: .5s;
+}
+.f_l_hover a {
+    transition: .5s;
+    color: #909090;
+}
+.btn_ttl a:hover {
+    background: #0075a9;
+    color: white;
+}
+.f_l_hover a:hover {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #9a9a9a;
+}
+.before {
+    position: relative;
+    padding-bottom: 35px;
+}
+.before::before {
+    content: "";
+    width: 97px;
+    height: 5px;
+    background: #d8d8d8;
+    position: absolute;
+    top: 50px;
+}
+.insta li {
+    padding: 8px;
+}
+.f_medium {
+    display: flex;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.a_black a {
+    color: black;
+}
+.style3 {
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    width: 280px;
+    height: 450px;
+    z-index: 2;
+    top: 134px;
+    right: -10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    color: #336;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 0;
+    transition-duration: .2s;
+}
+.basket:hover .style3 {
+    visibility: visible;
+}
+.basket_pr {
+    display: flex;
+    position: relative;
+    padding: 10px 0;
+}
+.b_price {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.basket_r a {
+    color: #2b497fcc;
+    display: flex;
+    margin-left: 145px;
+    font-size: 14px;
+}
+.b_price del {
+    font-weight: 400;
+    font-size: 18px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #d8d8d8;
+    font-size: 16px;
 }
