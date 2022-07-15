@@ -1,0 +1,446 @@
+ 
+ /* Универсал */
+* {
+    box-sizing: border-box;
+}
+body, p {
+    margin: 0 !important;
+    font-family: roboto;
+}
+a {
+    text-decoration: none !important ;
+    color: black;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.ul_li a {
+    color: #909090;
+}
+.ul_li i {
+    margin-right: 15px;
+    line-height: 1.5;
+}
+.border-l li {
+    border-right: 1px solid #dcdcdc;
+}
+
+.hover_menu li:hover .dropdown_menu {
+    display: block;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    top: 56px;
+    padding-top: 30px;
+}
+.dropdown_menu li {
+    list-style: none;
+    padding-top: 10px;
+}
+.style1 {
+    width: 250px;
+    height: 190px;
+    padding-left: 30px;
+    z-index: 2;
+     
+}
+.style2 {
+    width: 930px;
+    height: 330px;
+    z-index: 2;
+}
+.mb-10 {
+    margin-bottom: 15px;
+}
+.main_bottom {
+    padding: 8px 20px;
+}
+.main_bottom:hover {
+    background: #7cd0f5;
+    color: #fff;
+    border-radius: 40px;
+}
+.border:after {
+    content: '';
+    width: 1px;
+    background: #f4f4f4;
+    position: relative;
+    top: 0;
+    right: -46px;
+}
+
+
+ /* Общий */
+
+.top-menu {
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+} 
+.ul_li > li {
+    float: left;
+    padding: 10px 15px;
+    display: flex;
+}
+.left {
+    float: left;
+    position: relative;
+}
+.right {
+    float: right;
+}
+
+.border-l li:last-child {
+    border-right: 0;
+}
+.msg {
+    position: absolute;
+    top: 5px;
+    left: 245px;
+    background: #dd3657;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    line-height: 1.3;
+    border-radius: 15px;
+}
+.icon_msg {
+    position: relative;
+}
+.bottom-menu {
+    margin: 30px 0;
+    position: relative;
+}
+.bottom-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle i {
+    background: #f4f4f4;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 50%;
+    color: #323464;
+}
+.b_right {
+    float: right;
+}
+li.border {
+    border: none !important;
+}
+.bottom-menu .border-l li:first-child {
+    border: 0;
+}
+.main-menu {
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.main_left a {
+    color: #4c4b6c;
+    font-weight: bold;
+}
+.main_bg {
+    background-image: url(../img/main_bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pr_left {
+    float: left;
+    position: absolute;
+}
+.pr_center {
+    position: absolute;
+    left: 225px;
+}
+.pr_right {
+    left: 450px;
+    position: absolute;
+}
+.main_right {
+    position: relative;
+}
+.search_css {
+    position: relative;
+    background: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    outline: none;
+}
+.search {
+    position: absolute;
+    right: 160px;
+    top: -55px;
+}
+.search-button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.basket {
+    right: 15px;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+}
+.basket span > i {
+    background: #ffcc33;
+    color: #fffaff;
+}
+.basket > .b_left {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+ /* Lesson 17 */
+
+ .block_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+#product {
+    margin: 0 15px;
+}
+.block_body {
+    margin-top: 20px;
+}
+.list_product > .product {
+    float: left;
+}
+.block_stars > div {
+    float: left;
+}
+.product {
+    display: inline-block;
+    min-height: 300px;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.stars > i {
+    font-size: 10px;
+    color: #ffcc33;
+    margin-left: -4px;
+}
+
+.stars > i:first-child {
+    margin-left: 0px;
+}
+.stars {
+    margin-right: 10px;
+}
+.review {
+    font-size: 13px;
+    line-height: 1.7;
+}
+.price {
+    display: inline-block;
+}
+.price span {
+    font-size:px;
+    font-weight: bold;
+    color: #4c4b6c;
+}
+.price del {
+    color: #909090;
+    margin-left: 18px;
+}
+.btns .ul_li {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns i {
+    margin: 0px;
+}
+.btns li {
+    padding: 0px;
+}
+.btns .circle i {
+    transition: .5s;
+}
+/* HOVER */
+
+.btns li:hover .circle i {
+    background: #7cd0f5;
+    color: white;
+}
+.dnone {
+    display: none;
+}
+.product:hover .dnone {
+    display: block;
+}
+.product:hover .block_stars {
+    display: none;
+}
+.product:hover .desc_img {
+    opacity: 1;
+}
+.list_product {
+    display: flex;
+    justify-content: space-between;
+}
+.img_pr {
+    position: relative;
+}
+.desc_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffffff8f;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+.tooltip {
+    position: absolute;
+    background: #abcd02;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 8px;
+    z-index: 1;
+}
+.saletip {
+    position: absolute;
+    background: #ffcc33;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+/* Lesson 18 Bootstrap */
+section#banner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section#banner img {
+    width: 100%;
+}
+p.btn_ttl {
+    text-align: center;
+    padding: 20px 0;
+}
+.btn_ttl a {
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    background: #7cd0f5;
+    border-radius: 30px;
+    transition: .5s;
+}
+.f_l_hover a {
+    transition: .5s;
+    color: #909090;
+}
+.btn_ttl a:hover {
+    background: #0075a9;
+    color: white;
+}
+.f_l_hover a:hover {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #9a9a9a;
+}
+.before {
+    position: relative;
+    padding-bottom: 35px;
+}
+.before::before {
+    content: "";
+    width: 97px;
+    height: 5px;
+    background: #d8d8d8;
+    position: absolute;
+    top: 50px;
+}
+.insta li {
+    padding: 8px;
+}
+.f_medium {
+    display: flex;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.a_black a {
+    color: black;
+}
+.style3 {
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    width: 280px;
+    height: 450px;
+    z-index: 2;
+    top: 134px;
+    right: -10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    color: #336;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 0;
+    transition-duration: .2s;
+}
+.basket:hover .style3 {
+    visibility: visible;
+}
+.basket_pr {
+    display: flex;
+    position: relative;
+    padding: 10px 0;
+}
+.b_price {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.basket_r a {
+    color: #2b497fcc;
+    display: flex;
+    margin-left: 145px;
+    font-size: 14px;
+}
+.b_price del {
+    font-weight: 400;
+    font-size: 18px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #d8d8d8;
+    font-size: 16px;
+}
